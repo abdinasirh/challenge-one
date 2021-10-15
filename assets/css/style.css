@@ -5,27 +5,29 @@
     margin: 0;
 }
 
-/* Element selectors */
+/* Element selectors, apply styles to the body */
 body {
     background-color: #d9dcd6;
 }
-/* Class selector */
+/* apply styles to <header> */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* apply styles to heading 1 in <header> */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* apply styles to part of the text in h1 */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* apply styles to navigation in <header> */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -34,10 +36,12 @@ body {
     font-size: 20px;
 }
 
+/* apply styles to unordered list in navigation*/
 .header div ul {
     list-style-type: none;
 }
 
+/* apply styles to list items in unordered list*/
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
